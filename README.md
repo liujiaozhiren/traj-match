@@ -29,7 +29,7 @@ Run the commands from the repository root with `PYTHONPATH=.`. The diffusion mod
 3. Train the matcher.
 4. Train the selector, then evaluate.
 
-Pretraining the diffusion model takes a long time. The pretrained weights are included so this step can be skipped:
+Pretraining the diffusion model requires large-scale UAV flight data and a long training time, so the pretrained weights are included and this step can be skipped:
 
 - `weights/real_UAV/diff_pre.pth`, `weights/real_UAV/diff_post.pth`
 - `weights/chengdu/diff_pre.pth`, `weights/chengdu/diff_post.pth`
